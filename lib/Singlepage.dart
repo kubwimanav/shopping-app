@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 class Singlepage extends StatelessWidget {
   const Singlepage({super.key});
@@ -25,8 +26,10 @@ class Singlepage extends StatelessWidget {
 
           Card(
         child: Column(
+
           children: [
-        const Padding(padding: EdgeInsets.only(top: 8,bottom: 8)),
+        const Padding(padding: EdgeInsets.only(top: 8)),
+        
             Container(
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -43,7 +46,7 @@ class Singlepage extends StatelessWidget {
                               // decoration: const BoxDecoration(borderRadius: BorderRadius.all(Radius.circular(50))),
                              child: ClipPath(
                               
-                              child: Image.asset('assets/eyeglas.jpg',
+                              child: SvgPicture.asset('assets/swing.svg',
                               width:50 ,
                               color: Colors.amber,
                               colorBlendMode: BlendMode.multiply,
@@ -63,11 +66,11 @@ class Singlepage extends StatelessWidget {
                             children: [
                               Container(
                                   width: 110,
-                                  height: 80,
+                                  height: 75,
                                   // decoration: const BoxDecoration(borderRadius: BorderRadius.all(Radius.circular(50))),
                                   child: ClipPath(
-                                    child: Image.asset(
-                                      'assets/eyeglas.jpg',
+                                    child: SvgPicture.asset(
+                                      'assets/financial.svg',
                                       width: 50,
                                       color: Colors.amber,
                                       colorBlendMode: BlendMode.multiply,
@@ -100,8 +103,8 @@ class Singlepage extends StatelessWidget {
                                   height: 80,
                                   // decoration: const BoxDecoration(borderRadius: BorderRadius.all(Radius.circular(50))),
                                   child: ClipPath(
-                                    child: Image.asset(
-                                      'assets/eyeglas.jpg',
+                                    child: SvgPicture.asset(
+                                      'assets/pumpkin.svg',
                                       width: 50,
                                       color: Colors.amber,
                                       colorBlendMode: BlendMode.multiply,
@@ -122,8 +125,8 @@ class Singlepage extends StatelessWidget {
                                   height: 80,
                                   // decoration: const BoxDecoration(borderRadius: BorderRadius.all(Radius.circular(50))),
                                   child: ClipPath(
-                                    child: Image.asset(
-                                      'assets/eyeglas.jpg',
+                                    child: SvgPicture.asset(
+                                      'assets/coffee.svg',
                                       width: 50,
                                       color: Colors.amber,
                                       colorBlendMode: BlendMode.multiply,
@@ -154,8 +157,8 @@ class Singlepage extends StatelessWidget {
                                   height: 80,
                                   // decoration: const BoxDecoration(borderRadius: BorderRadius.all(Radius.circular(50))),
                                   child: ClipPath(
-                                    child: Image.asset(
-                                      'assets/eyeglas.jpg',
+                                    child: SvgPicture.asset(
+                                      'assets/application.svg',
                                       width: 50,
                                       color: Colors.amber,
                                       colorBlendMode: BlendMode.multiply,
@@ -176,8 +179,8 @@ class Singlepage extends StatelessWidget {
                                   height: 80,
                                   // decoration: const BoxDecoration(borderRadius: BorderRadius.all(Radius.circular(50))),
                                   child: ClipPath(
-                                    child: Image.asset(
-                                      'assets/eyeglas.jpg',
+                                    child: SvgPicture.asset(
+                                      'assets/marilyn.svg',
                                       width: 50,
                                       color: Colors.amber,
                                       colorBlendMode: BlendMode.multiply,
@@ -208,8 +211,8 @@ class Singlepage extends StatelessWidget {
                                   height: 80,
                                   // decoration: const BoxDecoration(borderRadius: BorderRadius.all(Radius.circular(50))),
                                   child: ClipPath(
-                                    child: Image.asset(
-                                      'assets/eyeglas.jpg',
+                                    child: SvgPicture.asset(
+                                      'assets/notifications.svg',
                                       width: 50,
                                       color: Colors.amber,
                                       colorBlendMode: BlendMode.multiply,
@@ -230,8 +233,8 @@ class Singlepage extends StatelessWidget {
                                   height: 80,
                                   // decoration: const BoxDecoration(borderRadius: BorderRadius.all(Radius.circular(50))),
                                   child: ClipPath(
-                                    child: Image.asset(
-                                      'assets/eyeglas.jpg',
+                                    child: SvgPicture.asset(
+                                      'assets/woman.svg',
                                       width: 50,
                                       color: Colors.amber,
                                       colorBlendMode: BlendMode.multiply,
