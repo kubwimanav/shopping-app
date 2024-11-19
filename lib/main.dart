@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_1/About.dart';
 import 'package:flutter_application_1/Home.dart';
 import 'package:flutter_application_1/Profile.dart';
+import 'package:flutter_application_1/Singlepage.dart';
 
 void main() {
   runApp( MaterialApp(
@@ -9,7 +10,8 @@ void main() {
     routes: {
       '/home': (context) => const Home(),
       '/about': (context) => const About(),
-      '/profile':(context) => const Profile()
+      '/profile':(context) => const Profile(),
+      '/singlepage':(context) => const Singlepage(),
     },
   ));
 }
