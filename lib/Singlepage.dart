@@ -160,8 +160,7 @@ class Singlepage extends StatelessWidget {
                           ),
                         ),
                       ),
-                      Container(
-                        child: Card(
+                      Card(
                           color: Colors.amber,
                           child: Column(
                             children: [
@@ -181,19 +180,16 @@ class Singlepage extends StatelessWidget {
                             ],
                           ),
                         ),
-                      ),
                     ],
                   ),
                 ),
                 const SizedBox(
                   height: 10,
                 ),
-                Container(
-                  child: Row(
+                Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
-                      Container(
-                        child: Card(
+                       Card(
                           color: Colors.amber,
                           child: Column(
                             children: [
@@ -211,11 +207,10 @@ class Singlepage extends StatelessWidget {
                                   )),
                               const Text('Ipsum dolor')
                             ],
-                          ),
+                          
                         ),
                       ),
-                      Container(
-                        child: Card(
+                      Card(
                           color: Colors.amber,
                           child: Column(
                             children: [
@@ -235,32 +230,27 @@ class Singlepage extends StatelessWidget {
                             ],
                           ),
                         ),
-                      ),
+                      
                     ],
                   ),
-                ),
+                
               ],
             ),
           ),
-          Container(
-            child: Row(
+            Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
-                Container(
-                  child: const Icon(Icons.delivery_dining, size: 35),
-                ),
-                Container(
-                  child: const Icon(Icons.search, size: 35),
-                ),
-                Container(
-                  child: IconButton(
+               const Icon(Icons.delivery_dining, size: 35),
+                
+               const Icon(Icons.search, size: 35),
+                
+                 IconButton(
                       onPressed: () {
                         Navigator.pushNamed(context, '/message');
                       },
                       icon: const Icon(Icons.person, size: 35)),
-                ),
-                Container(
-                  child: IconButton(
+                
+                 IconButton(
                       onPressed: () {
                         Navigator.pushNamed(context, '/singlepage');
                       },
@@ -268,16 +258,15 @@ class Singlepage extends StatelessWidget {
                         Icons.bookmark_border,
                         size: 35,
                       )),
-                ),
-                Container(
-                  child: const Icon(
+              
+               const Icon(
                     Icons.settings,
                     size: 35,
                   ),
-                ),
+                
               ],
             ),
-          )
+          
         ],
       ),
     );

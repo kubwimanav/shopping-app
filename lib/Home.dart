@@ -9,12 +9,10 @@ class Home extends StatelessWidget {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
-          Container(
-            child: const Text(
+           const Text(
               'Shopping',
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
             ),
-          ),
           Image.asset('assets/home.jpg'),
           Container(
             width: 150,
@@ -30,10 +28,8 @@ class Home extends StatelessWidget {
                   style: TextStyle(color: Colors.white),
                 )),
           ),
-          Container(
-            child: const Text(
+         const Text(
                 'Express opinions and describe personal shopping experiences. Identify specific information in an article about Buy Nothing Day. Create and give a presentation about an ideal shop'),
-          )
         ],
       ),
     );
