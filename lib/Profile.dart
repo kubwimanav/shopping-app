@@ -94,8 +94,8 @@ class Profile extends StatelessWidget {
                       Text('Sit Ament')
                     ],
                   )),
-                  Container(
-                    child: Row(
+            
+                  Row(
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
                       children: [
                         Container(
@@ -105,12 +105,16 @@ class Profile extends StatelessWidget {
                           child: const Icon(Icons.search, size: 35),
                         ),
                         Container(
-                          child: const Icon(Icons.person, size: 35),
-                        ),
+                            child: IconButton(
+                                onPressed: () {
+                                  Navigator.pushNamed(context, '/message');
+                                },
+                                icon: const Icon(Icons.person, size: 35),
+                        )),
                         Container(
                           child: IconButton(
                               onPressed: () {
-                                Navigator.pushNamed(context,'/singlepage');
+                                Navigator.pushNamed(context, '/singlepage');
                               },
                               icon: const Icon(Icons.bookmark_border)),
                         ),
@@ -121,8 +125,7 @@ class Profile extends StatelessWidget {
                           ),
                         ),
                       ],
-                    ),
-                  )
+                    )
                 ],
               ),
             ),
