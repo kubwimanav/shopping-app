@@ -94,38 +94,40 @@ class Profile extends StatelessWidget {
                       Text('Sit Ament')
                     ],
                   )),
-            
                   Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceAround,
-                      children: [
-                        Container(
-                          child: const Icon(Icons.delivery_dining, size: 35),
-                        ),
-                        Container(
-                          child: const Icon(Icons.search, size: 35),
-                        ),
-                        Container(
-                            child: IconButton(
-                                onPressed: () {
-                                  Navigator.pushNamed(context, '/message');
-                                },
-                                icon: const Icon(Icons.person, size: 35),
-                        )),
-                        Container(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: [
+                      Container(
+                        child: const Icon(Icons.delivery_dining, size: 35),
+                      ),
+                      Container(
+                        child: const Icon(Icons.search, size: 35),
+                      ),
+                      Container(
                           child: IconButton(
-                              onPressed: () {
-                                Navigator.pushNamed(context, '/singlepage');
-                              },
-                              icon: const Icon(Icons.bookmark_border)),
+                        onPressed: () {
+                          Navigator.pushNamed(context, '/message');
+                        },
+                        icon: const Icon(Icons.person, size: 35),
+                      )),
+                      Container(
+                        child: IconButton(
+                            onPressed: () {
+                              Navigator.pushNamed(context, '/singlepage');
+                            },
+                            icon: const Icon(Icons.bookmark_border)),
+                      ),
+                      IconButton(
+                        onPressed: () {
+                          Navigator.pushNamed(context, '/order');
+                        },
+                        icon: const Icon(
+                          Icons.settings,
+                          size: 35,
                         ),
-                        Container(
-                          child: const Icon(
-                            Icons.settings,
-                            size: 35,
-                          ),
-                        ),
-                      ],
-                    )
+                      )
+                    ],
+                  )
                 ],
               ),
             ),

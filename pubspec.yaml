@@ -74,6 +74,7 @@ flutter:
     - assets/application.svg
     - assets/swing.svg
     - assets/email.svg
+    - assets/cart.svg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 
