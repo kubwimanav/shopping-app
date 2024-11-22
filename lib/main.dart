@@ -4,6 +4,7 @@ import 'package:flutter_application_1/Home.dart';
 import 'package:flutter_application_1/Message.dart';
 import 'package:flutter_application_1/Order.dart';
 import 'package:flutter_application_1/Profile.dart';
+import 'package:flutter_application_1/Promocode.dart';
 import 'package:flutter_application_1/Singlepage.dart';
 
 void main() {
@@ -16,6 +17,7 @@ void main() {
       '/singlepage':(context) => const Singlepage(),
       '/message':(context) => const Message(),
       '/order':(context) => const Order(),
+      '/promocode':(context) => const Promocode(),
     },
   ));
 }

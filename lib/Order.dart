@@ -13,58 +13,34 @@ class Order extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-            SvgPicture.asset('assets/cart.svg',
-            color: Colors.amber,
-            width: 250,
-            height: 149,),
-       
-
-
-           const Column(
-              children: [
-                Text('Quantity Price'),
-                SizedBox(height: 70,),
-                Text('Total: 3000')
-              ],
-            )
+              SvgPicture.asset(
+                'assets/cart.svg',
+                color: Colors.amber,
+                width: 250,
+                height: 149,
+              ),
+              const Column(
+                children: [
+                  Text(
+                    'Quantity Price',
+                    style: TextStyle(fontWeight: FontWeight.w700),
+                  ),
+                  SizedBox(
+                    height: 70,
+                  ),
+                  Text(
+                    'Total: 3000',
+                    style: TextStyle(fontWeight: FontWeight.w800),
+                  )
+                ],
+              )
             ],
           ),
           Card(
             color: Color.fromARGB(255, 53, 53, 53),
             child: Column(
               children: [
-            
-              const Padding(padding: EdgeInsets.all(15)),
-               const Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    Text('hello',style: TextStyle(fontSize: 18,
-                    color: Colors.white,
-                    fontWeight: FontWeight.w500),),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Icon(Icons.remove,
-                        color: Colors.white,),
-                        Icon(Icons.check_box_outline_blank_outlined,
-                        color: Colors.white,),
-                        Icon(Icons.add,
-                        color: Colors.white,
-                        ),
-                      ],
-                    ),
-                    Text('100',
-                    style: TextStyle(
-                      color:Colors.white,
-                      fontWeight: FontWeight.w500
-                    ),)
-                  ],
-                ),
-              const SizedBox(
-                  height: 7,
-                ),
-
-
+                const Padding(padding: EdgeInsets.all(15)),
                 const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
@@ -102,237 +78,6 @@ class Order extends StatelessWidget {
                 const SizedBox(
                   height: 7,
                 ),
-
-
-                  const Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    Text(
-                      'hello',
-                      style: TextStyle(
-                          fontSize: 18,
-                          color: Colors.white,
-                          fontWeight: FontWeight.w500),
-                    ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Icon(
-                          Icons.remove,
-                          color: Colors.white,
-                        ),
-                        Icon(
-                          Icons.check_box_outline_blank_outlined,
-                          color: Colors.white,
-                        ),
-                        Icon(
-                          Icons.add,
-                          color: Colors.white,
-                        ),
-                      ],
-                    ),
-                    Text(
-                      '100',
-                      style: TextStyle(
-                          color: Colors.white, fontWeight: FontWeight.w500),
-                    )
-                  ],
-                ),
-                const SizedBox(
-                  height: 7,
-                ),
-
-
-                  const Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    Text(
-                      'hello',
-                      style: TextStyle(
-                          fontSize: 18,
-                          color: Colors.white,
-                          fontWeight: FontWeight.w500),
-                    ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Icon(
-                          Icons.remove,
-                          color: Colors.white,
-                        ),
-                        Icon(
-                          Icons.check_box_outline_blank_outlined,
-                          color: Colors.white,
-                        ),
-                        Icon(
-                          Icons.add,
-                          color: Colors.white,
-                        ),
-                      ],
-                    ),
-                    Text(
-                      '100',
-                      style: TextStyle(
-                          color: Colors.white, fontWeight: FontWeight.w500),
-                    )
-                  ],
-                ),
-                const SizedBox(
-                  height: 7,
-                ),
-
-
-                  const Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    Text(
-                      'hello',
-                      style: TextStyle(
-                          fontSize: 18,
-                          color: Colors.white,
-                          fontWeight: FontWeight.w500),
-                    ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Icon(
-                          Icons.remove,
-                          color: Colors.white,
-                        ),
-                        Icon(
-                          Icons.check_box_outline_blank_outlined,
-                          color: Colors.white,
-                        ),
-                        Icon(
-                          Icons.add,
-                          color: Colors.white,
-                        ),
-                      ],
-                    ),
-                    Text(
-                      '100',
-                      style: TextStyle(
-                          color: Colors.white, fontWeight: FontWeight.w500),
-                    )
-                  ],
-                ),
-                const SizedBox(
-                  height: 7,
-                ),
-
-                  const Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    Text(
-                      'hello',
-                      style: TextStyle(
-                          fontSize: 18,
-                          color: Colors.white,
-                          fontWeight: FontWeight.w500),
-                    ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Icon(
-                          Icons.remove,
-                          color: Colors.white,
-                        ),
-                        Icon(
-                          Icons.check_box_outline_blank_outlined,
-                          color: Colors.white,
-                        ),
-                        Icon(
-                          Icons.add,
-                          color: Colors.white,
-                        ),
-                      ],
-                    ),
-                    Text(
-                      '100',
-                      style: TextStyle(
-                          color: Colors.white, fontWeight: FontWeight.w500),
-                    )
-                  ],
-                ),
-                const SizedBox(
-                  height: 7,
-                ),
-                  const Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    Text(
-                      'hello',
-                      style: TextStyle(
-                          fontSize: 18,
-                          color: Colors.white,
-                          fontWeight: FontWeight.w500),
-                    ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Icon(
-                          Icons.remove,
-                          color: Colors.white,
-                        ),
-                        Icon(
-                          Icons.check_box_outline_blank_outlined,
-                          color: Colors.white,
-                        ),
-                        Icon(
-                          Icons.add,
-                          color: Colors.white,
-                        ),
-                      ],
-                    ),
-                    Text(
-                      '100',
-                      style: TextStyle(
-                          color: Colors.white, fontWeight: FontWeight.w500),
-                    )
-                  ],
-                ),
-                const SizedBox(
-                  height: 7,
-                ),
-                  const Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    Text(
-                      'hello',
-                      style: TextStyle(
-                          fontSize: 18,
-                          color: Colors.white,
-                          fontWeight: FontWeight.w500),
-                    ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Icon(
-                          Icons.remove,
-                          color: Colors.white,
-                        ),
-                        Icon(
-                          Icons.check_box_outline_blank_outlined,
-                          color: Colors.white,
-                        ),
-                        Icon(
-                          Icons.add,
-                          color: Colors.white,
-                        ),
-                      ],
-                    ),
-                    Text(
-                      '100',
-                      style: TextStyle(
-                          color: Colors.white, fontWeight: FontWeight.w500),
-                    )
-                  ],
-                ),
-                const SizedBox(
-                  height: 7,
-                ),
-
-
                 const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
@@ -367,10 +112,9 @@ class Order extends StatelessWidget {
                     )
                   ],
                 ),
-              const SizedBox(
+                const SizedBox(
                   height: 7,
                 ),
-
                 const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
@@ -405,7 +149,9 @@ class Order extends StatelessWidget {
                     )
                   ],
                 ),
-               const SizedBox(height: 7,),
+                const SizedBox(
+                  height: 7,
+                ),
                 const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
@@ -440,10 +186,9 @@ class Order extends StatelessWidget {
                     )
                   ],
                 ),
-               const SizedBox(
+                const SizedBox(
                   height: 7,
                 ),
-
                 const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
@@ -478,10 +223,9 @@ class Order extends StatelessWidget {
                     )
                   ],
                 ),
-                 const SizedBox(
+                const SizedBox(
                   height: 7,
                 ),
-
                 const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
@@ -516,10 +260,268 @@ class Order extends StatelessWidget {
                     )
                   ],
                 ),
-               const SizedBox(
+                const SizedBox(
                   height: 7,
                 ),
-
+                const Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Text(
+                      'hello',
+                      style: TextStyle(
+                          fontSize: 18,
+                          color: Colors.white,
+                          fontWeight: FontWeight.w500),
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Icon(
+                          Icons.remove,
+                          color: Colors.white,
+                        ),
+                        Icon(
+                          Icons.check_box_outline_blank_outlined,
+                          color: Colors.white,
+                        ),
+                        Icon(
+                          Icons.add,
+                          color: Colors.white,
+                        ),
+                      ],
+                    ),
+                    Text(
+                      '100',
+                      style: TextStyle(
+                          color: Colors.white, fontWeight: FontWeight.w500),
+                    )
+                  ],
+                ),
+                const SizedBox(
+                  height: 7,
+                ),
+                const Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Text(
+                      'hello',
+                      style: TextStyle(
+                          fontSize: 18,
+                          color: Colors.white,
+                          fontWeight: FontWeight.w500),
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Icon(
+                          Icons.remove,
+                          color: Colors.white,
+                        ),
+                        Icon(
+                          Icons.check_box_outline_blank_outlined,
+                          color: Colors.white,
+                        ),
+                        Icon(
+                          Icons.add,
+                          color: Colors.white,
+                        ),
+                      ],
+                    ),
+                    Text(
+                      '100',
+                      style: TextStyle(
+                          color: Colors.white, fontWeight: FontWeight.w500),
+                    )
+                  ],
+                ),
+                const SizedBox(
+                  height: 7,
+                ),
+                const Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Text(
+                      'hello',
+                      style: TextStyle(
+                          fontSize: 18,
+                          color: Colors.white,
+                          fontWeight: FontWeight.w500),
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Icon(
+                          Icons.remove,
+                          color: Colors.white,
+                        ),
+                        Icon(
+                          Icons.check_box_outline_blank_outlined,
+                          color: Colors.white,
+                        ),
+                        Icon(
+                          Icons.add,
+                          color: Colors.white,
+                        ),
+                      ],
+                    ),
+                    Text(
+                      '100',
+                      style: TextStyle(
+                          color: Colors.white, fontWeight: FontWeight.w500),
+                    )
+                  ],
+                ),
+                const SizedBox(
+                  height: 7,
+                ),
+                const Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Text(
+                      'hello',
+                      style: TextStyle(
+                          fontSize: 18,
+                          color: Colors.white,
+                          fontWeight: FontWeight.w500),
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Icon(
+                          Icons.remove,
+                          color: Colors.white,
+                        ),
+                        Icon(
+                          Icons.check_box_outline_blank_outlined,
+                          color: Colors.white,
+                        ),
+                        Icon(
+                          Icons.add,
+                          color: Colors.white,
+                        ),
+                      ],
+                    ),
+                    Text(
+                      '100',
+                      style: TextStyle(
+                          color: Colors.white, fontWeight: FontWeight.w500),
+                    )
+                  ],
+                ),
+                const SizedBox(
+                  height: 7,
+                ),
+                const Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Text(
+                      'hello',
+                      style: TextStyle(
+                          fontSize: 18,
+                          color: Colors.white,
+                          fontWeight: FontWeight.w500),
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Icon(
+                          Icons.remove,
+                          color: Colors.white,
+                        ),
+                        Icon(
+                          Icons.check_box_outline_blank_outlined,
+                          color: Colors.white,
+                        ),
+                        Icon(
+                          Icons.add,
+                          color: Colors.white,
+                        ),
+                      ],
+                    ),
+                    Text(
+                      '100',
+                      style: TextStyle(
+                          color: Colors.white, fontWeight: FontWeight.w500),
+                    )
+                  ],
+                ),
+                const SizedBox(
+                  height: 7,
+                ),
+                const Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Text(
+                      'hello',
+                      style: TextStyle(
+                          fontSize: 18,
+                          color: Colors.white,
+                          fontWeight: FontWeight.w500),
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Icon(
+                          Icons.remove,
+                          color: Colors.white,
+                        ),
+                        Icon(
+                          Icons.check_box_outline_blank_outlined,
+                          color: Colors.white,
+                        ),
+                        Icon(
+                          Icons.add,
+                          color: Colors.white,
+                        ),
+                      ],
+                    ),
+                    Text(
+                      '100',
+                      style: TextStyle(
+                          color: Colors.white, fontWeight: FontWeight.w500),
+                    )
+                  ],
+                ),
+                const SizedBox(
+                  height: 7,
+                ),
+                const Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Text(
+                      'hello',
+                      style: TextStyle(
+                          fontSize: 18,
+                          color: Colors.white,
+                          fontWeight: FontWeight.w500),
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Icon(
+                          Icons.remove,
+                          color: Colors.white,
+                        ),
+                        Icon(
+                          Icons.check_box_outline_blank_outlined,
+                          color: Colors.white,
+                        ),
+                        Icon(
+                          Icons.add,
+                          color: Colors.white,
+                        ),
+                      ],
+                    ),
+                    Text(
+                      '100',
+                      style: TextStyle(
+                          color: Colors.white, fontWeight: FontWeight.w500),
+                    )
+                  ],
+                ),
+                const SizedBox(
+                  height: 7,
+                ),
                 const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
@@ -557,7 +559,6 @@ class Order extends StatelessWidget {
                 const SizedBox(
                   height: 10,
                 ),
-
                 Container(),
                 Container(),
               ],
@@ -567,8 +568,11 @@ class Order extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               const Icon(Icons.delivery_dining, size: 35),
-              
-              const Icon(Icons.search, size: 35),
+              IconButton(
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/promocode');
+                  },
+                  icon: const Icon(Icons.search, size: 35)),
               IconButton(
                 onPressed: () {
                   Navigator.pushNamed(context, '/message');
@@ -576,11 +580,10 @@ class Order extends StatelessWidget {
                 icon: const Icon(Icons.person, size: 35),
               ),
               IconButton(
-                    onPressed: () {
-                      Navigator.pushNamed(context, '/singlepage');
-                    },
-                    icon: const Icon(Icons.bookmark_border)),
-              
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/singlepage');
+                  },
+                  icon: const Icon(Icons.bookmark_border)),
               IconButton(
                 onPressed: () {
                   Navigator.pushNamed(context, '/order');
