@@ -13,16 +13,13 @@ class Message extends StatelessWidget {
         child: Column(
         
         children: [
-           Row(
+           const Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            
-            SvgPicture.asset('assets/email.svg',
-            width: 150,
-            height: 100,
-            color: Colors.amber,
-            colorBlendMode: BlendMode.multiply,),
-            const Text('Type keywords relative'),
+            Icon(Icons.email_outlined,
+              size: 150,
+            ),
+            Text('Fine 93.1 FM is a radio station that \n broadcasts and communications \n about financial issues and \n services in Rwanda.\n It covers 75% of the population'),
             ]
           ),
           Card(
@@ -31,20 +28,21 @@ class Message extends StatelessWidget {
               children: [
                 const Padding(padding: EdgeInsets.all(10)),
                   Card(
-                   
+                      
+                    child: Padding(
+                   padding:const EdgeInsets.all(10),
                     child: Row(
-                    
                     children: [
                     Container(
                       decoration:const BoxDecoration(
-                        color: Colors.black,
+                       color: Color.fromARGB(255, 200, 198, 198),
                         borderRadius: BorderRadius.all(Radius.circular(50))
                       ),
                      child:   const Icon(Icons.person,
                      color: Colors.white,
                      size: 40,),
                     ),
-                   
+                    const SizedBox(width: 10,),
                      const Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children:[
@@ -52,7 +50,7 @@ class Message extends StatelessWidget {
                      Text('latest Microsoft',style: TextStyle(fontSize:15,
                      fontWeight: FontWeight.bold),),   
                         Text(
-                          'dataShopping mobile app screens set for web and ',
+                          'Line breaks are helpful to break text into \n multiple lines so that users can read the text \n properly. ',
                           style: TextStyle(),
                         )
                         ]
@@ -60,292 +58,132 @@ class Message extends StatelessWidget {
                      
                       
                     ],
-                  )),
-                const SizedBox(height: 10,),
-             Card(
-                      child: Row(
-                    children: [
-                      Container(
-                        decoration: const BoxDecoration(
-                            color: Colors.black,
-                            borderRadius:
-                                BorderRadius.all(Radius.circular(50))),
-                        child: const Icon(
-                          Icons.person,
-                          color: Colors.white,
-                          size: 40,
-                        ),
-                      ),
-                     const Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                'latest Microsoft',
-                                style: TextStyle(
-                                    fontSize: 15, fontWeight: FontWeight.bold),
-                              ),
-                              Text(
-                                'dataShopping mobile app screens set for web and ',
-                                style: TextStyle(),
-                              )
-                            ]),
-                      
-                    ],
-                  ),
-                ), 
-
-
-                const SizedBox(
-                  height: 10,
-                ),
-
-                 Card(
-                      child: Row(
-                    children: [
-                      Container(
-                        decoration: const BoxDecoration(
-                            color: Colors.black,
-                            borderRadius:
-                                BorderRadius.all(Radius.circular(50))),
-                        child: const Icon(
-                          Icons.person,
-                          color: Colors.white,
-                          size: 40,
-                        ),
-                      ),
-                      const Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                'latest Microsoft',
-                                style: TextStyle(
-                                    fontSize: 15, fontWeight: FontWeight.bold),
-                              ),
-                              Text(
-                                'dataShopping mobile app screens set for web and ',
-                                style: TextStyle(),
-                              )
-                            ]),
-                      
-                    ],
-                  ),
-                ), 
-
+                  ))),
 
                 const SizedBox(
                   height: 10,
                 ),
 
 
-                 Card(
-                      child: Row(
-                    children: [
-                      Container(
-                        decoration: const BoxDecoration(
-                            color: Colors.black,
-                            borderRadius:
-                                BorderRadius.all(Radius.circular(50))),
-                        child: const Icon(
-                          Icons.person,
-                          color: Colors.white,
-                          size: 40,
-                        ),
-                      ),
-                      const Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                'latest Microsoft',
-                                style: TextStyle(
-                                    fontSize: 15, fontWeight: FontWeight.bold),
-                              ),
-                              Text(
-                                'dataShopping mobile app screens set for web and ',
-                                style: TextStyle(),
-                              )
-                            ]),
-                    ],
-                  ),
-                ), 
-
-                              const SizedBox(
-                  height: 10,
-                ),
-
-
-                 Card(
-                      child: Row(
-                    children: [
-                      Container(
-                        decoration: const BoxDecoration(
-                            color: Colors.black,
-                            borderRadius:
-                                BorderRadius.all(Radius.circular(50))),
-                        child: const Icon(
-                          Icons.person,
-                          color: Colors.white,
-                          size: 40,
-                        ),
-                      ),
-                     
-                        const Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                'latest Microsoft',
-                                style: TextStyle(
-                                    fontSize: 15, fontWeight: FontWeight.bold),
-                              ),
-                              Text(
-                                'dataShopping mobile app screens set for web and ',
-                                style: TextStyle(),
-                              )
-                            ]),
-                    ],
-                  ),
-                ), 
-
+                     Card(
+                        child: Padding(
+                            padding: const EdgeInsets.all(10),
+                            child: Row(
+                              children: [
+                                Container(
+                                  decoration: const BoxDecoration(
+                                      color: Color.fromARGB(255, 200, 198, 198),
+                                      borderRadius: BorderRadius.all(
+                                          Radius.circular(50))),
+                                  child: const Icon(
+                                    Icons.person,
+                                    color: Colors.white,
+                                    size: 40,
+                                  ),
+                                ),
                                 const SizedBox(
-                  height: 10,
-                ),
+                                  width: 10,
+                                ),
+                                const Column(
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      Text(
+                                        'latest Microsoft',
+                                        style: TextStyle(
+                                            fontSize: 15,
+                                            fontWeight: FontWeight.bold),
+                                      ),
+                                      Text(
+                                        'Line breaks are helpful to break text into \n multiple lines so that users can read the text \n properly. ',
+                                        style: TextStyle(),
+                                      )
+                                    ]),
+                              ],
+                            ))),
+                    const SizedBox(
+                      height: 10,
+                    ),
 
-
-                 Card(
-                      child: Row(
-                    children: [
-                      Container(
-                        decoration: const BoxDecoration(
-                            color: Colors.black,
-                            borderRadius:
-                                BorderRadius.all(Radius.circular(50))),
-                        child: const Icon(
-                          Icons.person,
-                          color: Colors.white,
-                          size: 40,
-                        ),
-                      ),
-                       const Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                'latest Microsoft',
-                                style: TextStyle(
-                                    fontSize: 15, fontWeight: FontWeight.bold),
-                              ),
-                              Text(
-                                'dataShopping mobile app screens set for web and ',
-                                style: TextStyle(),
-                              )
-                            ]),
-                      
-                    ],
-                  ),
-                ), 
-                               const SizedBox(
-                  height: 10,
-                ),
-
-                 Card(
-                      child: Row(
-                    children: [
-                      Container(
-                        decoration: const BoxDecoration(
-                            color: Colors.black,
-                            borderRadius:
-                                BorderRadius.all(Radius.circular(50))),
-                        child: const Icon(
-                          Icons.person,
-                          color: Colors.white,
-                          size: 40,
-                        ),
-                      ),
-                     const Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                'latest Microsoft',
-                                style: TextStyle(
-                                    fontSize: 15, fontWeight: FontWeight.bold),
-                              ),
-                              Text(
-                                'dataShopping mobile app screens set for web and ',
-                                style: TextStyle(),
-                              )
-                            ]),
-                      
-                    ],
-                  ),
-                ), 
+                         Card(
+                        child: Padding(
+                            padding: const EdgeInsets.all(10),
+                            child: Row(
+                              children: [
+                                Container(
+                                  decoration: const BoxDecoration(
+                                      color: Color.fromARGB(255, 200, 198, 198),
+                                      borderRadius: BorderRadius.all(
+                                          Radius.circular(50))),
+                                  child: const Icon(
+                                    Icons.person,
+                                    color: Colors.white,
+                                    size: 40,
+                                  ),
+                                ),
                                 const SizedBox(
-                  height: 10,
-                ),
+                                  width: 10,
+                                ),
+                                const Column(
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      Text(
+                                        'latest Microsoft',
+                                        style: TextStyle(
+                                            fontSize: 15,
+                                            fontWeight: FontWeight.bold),
+                                      ),
+                                      Text(
+                                        'Line breaks are helpful to break text into \n multiple lines so that users can read the text \n properly. ',
+                                        style: TextStyle(),
+                                      )
+                                    ]),
+                              ],
+                            ))),
+                    const SizedBox(
+                      height: 10,
+                    ),
 
-                 Card(
-                      child: Row(
-                    children: [
-                      Container(
-                        decoration: const BoxDecoration(
-                            color: Colors.black,
-                            borderRadius:
-                                BorderRadius.all(Radius.circular(50))),
-                        child: const Icon(
-                          Icons.person,
-                          color: Colors.white,
-                          size: 40,
-                        ),
-                      ),
-                       const Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                'latest Microsoft',
-                                style: TextStyle(
-                                    fontSize: 15, fontWeight: FontWeight.bold),
-                              ),
-                              Text(
-                                'dataShopping mobile app screens set for web and ',
-                                style: TextStyle(),
-                              )
-                            ]),
-                  
-                    ],
-                  )),
-                 
-                                 const SizedBox(
-                  height: 10,
-                ),
-
-                 Card(
-                      child: Row(
-                    children: [
-                      Container(
-                        decoration: const BoxDecoration(
-                            color: Colors.black,
-                            borderRadius:
-                                BorderRadius.all(Radius.circular(50))),
-                        child: const Icon(
-                          Icons.person,
-                          color: Colors.white,
-                          size: 40,
-                        ),
-                      ),
-                      const Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                'latest Microsoft',
-                                style: TextStyle(
-                                    fontSize: 15, fontWeight: FontWeight.bold),
-                              ),
-                              Text(
-                                'dataShopping mobile app screens set for web and ',
-                                style: TextStyle(),
-                              )
-                            ]),
-                      
-                    ],
-                  )),
-               const SizedBox(height:2),
+                         Card(
+                        child: Padding(
+                            padding: const EdgeInsets.all(10),
+                            child: Row(
+                              children: [
+                                Container(
+                                  decoration: const BoxDecoration(
+                                      color: Color.fromARGB(255, 200, 198, 198),
+                                      borderRadius: BorderRadius.all(
+                                          Radius.circular(50))),
+                                  child: const Icon(
+                                    Icons.person,
+                                    color: Colors.white,
+                                    size: 40,
+                                  ),
+                                ),
+                                const SizedBox(
+                                  width: 10,
+                                ),
+                                const Column(
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      Text(
+                                        'latest Microsoft',
+                                        style: TextStyle(
+                                            fontSize: 15,
+                                            fontWeight: FontWeight.bold),
+                                      ),
+                                      Text(
+                                        'Line breaks are helpful to break text into \n multiple lines so that users can read the text \n properly. ',
+                                        style: TextStyle(),
+                                      )
+                                    ]),
+                              ],
+                            ))),
+                    
+            
+               const SizedBox(height:8.27),
                  Row(
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
                       children: [
