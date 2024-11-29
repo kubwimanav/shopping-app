@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
-
 class Message extends StatelessWidget {
   const Message({super.key});
 
