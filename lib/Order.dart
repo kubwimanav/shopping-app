@@ -36,12 +36,12 @@ class Order extends StatelessWidget {
               )
             ],
           ),
-          Card(
+          const Card(
             color: Color.fromARGB(255, 53, 53, 53),
             child: Column(
               children: [
-                const Padding(padding: EdgeInsets.all(15)),
-                const Row(
+                 Padding(padding: EdgeInsets.all(15)),
+                Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Text(
@@ -75,10 +75,10 @@ class Order extends StatelessWidget {
                     )
                   ],
                 ),
-                const SizedBox(
+                SizedBox(
                   height: 7,
                 ),
-                const Row(
+                Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Text(
@@ -112,10 +112,10 @@ class Order extends StatelessWidget {
                     )
                   ],
                 ),
-                const SizedBox(
+                SizedBox(
                   height: 7,
                 ),
-                const Row(
+                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Text(
@@ -149,10 +149,10 @@ class Order extends StatelessWidget {
                     )
                   ],
                 ),
-                const SizedBox(
+                 SizedBox(
                   height: 7,
                 ),
-                const Row(
+                Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Text(
@@ -186,10 +186,10 @@ class Order extends StatelessWidget {
                     )
                   ],
                 ),
-                const SizedBox(
+                SizedBox(
                   height: 7,
                 ),
-                const Row(
+                Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Text(
@@ -223,10 +223,10 @@ class Order extends StatelessWidget {
                     )
                   ],
                 ),
-                const SizedBox(
+              SizedBox(
                   height: 7,
                 ),
-                const Row(
+               Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Text(
@@ -260,10 +260,10 @@ class Order extends StatelessWidget {
                     )
                   ],
                 ),
-                const SizedBox(
+                 SizedBox(
                   height: 7,
                 ),
-                const Row(
+                Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Text(
@@ -297,10 +297,10 @@ class Order extends StatelessWidget {
                     )
                   ],
                 ),
-                const SizedBox(
+              SizedBox(
                   height: 7,
                 ),
-                const Row(
+                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Text(
@@ -334,10 +334,10 @@ class Order extends StatelessWidget {
                     )
                   ],
                 ),
-                const SizedBox(
+                 SizedBox(
                   height: 7,
                 ),
-                const Row(
+                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Text(
@@ -371,10 +371,10 @@ class Order extends StatelessWidget {
                     )
                   ],
                 ),
-                const SizedBox(
+                SizedBox(
                   height: 7,
                 ),
-                const Row(
+                Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Text(
@@ -408,10 +408,10 @@ class Order extends StatelessWidget {
                     )
                   ],
                 ),
-                const SizedBox(
+              SizedBox(
                   height: 7,
                 ),
-                const Row(
+              Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Text(
@@ -445,10 +445,10 @@ class Order extends StatelessWidget {
                     )
                   ],
                 ),
-                const SizedBox(
+                SizedBox(
                   height: 7,
                 ),
-                const Row(
+                Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Text(
@@ -482,10 +482,10 @@ class Order extends StatelessWidget {
                     )
                   ],
                 ),
-                const SizedBox(
+              SizedBox(
                   height: 7,
                 ),
-                const Row(
+                Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Text(
@@ -519,10 +519,10 @@ class Order extends StatelessWidget {
                     )
                   ],
                 ),
-                const SizedBox(
+                 SizedBox(
                   height: 7,
                 ),
-                const Row(
+                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Text(
@@ -556,15 +556,15 @@ class Order extends StatelessWidget {
                     )
                   ],
                 ),
-                const SizedBox(
-                  height: 10,
-                ),
-                Container(),
-                Container(),
+               
               ],
             ),
           ),
-          Row(
+
+
+
+          Card(
+              child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               const Icon(Icons.delivery_dining, size: 35),
@@ -594,7 +594,7 @@ class Order extends StatelessWidget {
                 ),
               )
             ],
-          )
+          )),
         ],
       ),
     );

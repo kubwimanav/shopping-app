@@ -39,7 +39,7 @@ class Profile extends StatelessWidget {
             ),
           ),
           Container(
-            height: 500,
+            height: 452,
             child: Card(
               
               child: Column(
@@ -91,39 +91,45 @@ class Profile extends StatelessWidget {
                       Text('Sit Ament')
                     ],
                   ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceAround,
-                    children: [
-                     const Icon(Icons.delivery_dining, size: 35),
-                      
-                    const Icon(Icons.search, size: 35),
-                    IconButton(
-                        onPressed: () {
-                          Navigator.pushNamed(context, '/message');
-                        },
-                        icon: const Icon(Icons.person, size: 35),
-                      ),
-                       IconButton(
-                            onPressed: () {
-                              Navigator.pushNamed(context, '/singlepage');
-                            },
-                            icon: const Icon(Icons.bookmark_border)),
-                      
-                      IconButton(
-                        onPressed: () {
-                          Navigator.pushNamed(context, '/order');
-                        },
-                        icon: const Icon(
-                          Icons.settings,
-                          size: 35,
-                        ),
-                      )
-                    ],
-                  )
+               
                 ],
               ),
             ),
-          )
+
+          ),
+
+            Card(
+              child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            children: [
+              const Icon(Icons.delivery_dining, size: 35),
+              IconButton(
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/promocode');
+                  },
+                  icon: const Icon(Icons.search, size: 35)),
+              IconButton(
+                onPressed: () {
+                  Navigator.pushNamed(context, '/message');
+                },
+                icon: const Icon(Icons.person, size: 35),
+              ),
+              IconButton(
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/singlepage');
+                  },
+                  icon: const Icon(Icons.bookmark_border)),
+              IconButton(
+                onPressed: () {
+                  Navigator.pushNamed(context, '/order');
+                },
+                icon: const Icon(
+                  Icons.settings,
+                  size: 35,
+                ),
+              )
+            ],
+          )),
         ],
       ),
     );

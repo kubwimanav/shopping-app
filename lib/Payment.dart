@@ -15,6 +15,7 @@ class Payment extends StatelessWidget {
             fontWeight: FontWeight.w600
           ),
           ),
+
          const Card(
 
             color: Color.fromARGB(255, 95, 155, 97),
@@ -131,12 +132,17 @@ class Payment extends StatelessWidget {
             ],
            ),
           ),
-         const SizedBox(height: 17,),
-          Row(
+         const SizedBox(height: 9.2,),
+          Card(
+              child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               const Icon(Icons.delivery_dining, size: 35),
-              const Icon(Icons.search, size: 35),
+              IconButton(
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/promocode');
+                  },
+                  icon: const Icon(Icons.search, size: 35)),
               IconButton(
                 onPressed: () {
                   Navigator.pushNamed(context, '/message');
@@ -158,7 +164,7 @@ class Payment extends StatelessWidget {
                 ),
               )
             ],
-          )
+          )),
         ],
       ),
     );
