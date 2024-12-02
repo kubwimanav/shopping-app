@@ -199,15 +199,20 @@ class Message extends StatelessWidget {
                 },
                 icon: const Icon(Icons.person, size: 35),
               ),
-              IconButton(
+             IconButton(
                   onPressed: () {
-                    Navigator.pushNamed(context, '/pay');
+                    Navigator.pushNamed(context, '/singlepage');
                   },
                   icon: const Icon(Icons.bookmark_border)),
-              const Icon(
-                Icons.settings,
-                size: 35,
-              ),
+              IconButton(
+                onPressed: () {
+                  Navigator.pushNamed(context, '/order');
+                },
+                icon: const Icon(
+                  Icons.settings,
+                  size: 35,
+                ),
+              )
             ],
           )),
         ],

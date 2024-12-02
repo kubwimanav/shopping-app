@@ -11,32 +11,36 @@ class Singlepage extends StatelessWidget {
       body: Column(
         children: [
           Container(
-            width: 300,
-            height: 100,
-            child: const TextField(
+            padding: const EdgeInsets.all(30),
+            height: 166.2,
+           color: Colors.green,
+            child:const Center(
+              child: TextField(
               decoration: InputDecoration(
+                
                 border: OutlineInputBorder(
                     borderRadius: BorderRadius.all(Radius.circular(7))),
                 icon: Icon(Icons.search),
                 hintText: 'Lorem ipsum',
               ),
             ),
-          ),
+          )),
           Card(
             child: Column(
               children: [
-                const Padding(padding: EdgeInsets.only(top: 8)),
+                const Padding(padding: EdgeInsets.only(top: 33)),
                 Container(
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
-                      Container(
+                 Container(
                         child: Card(
                           color: Colors.amber,
                           child: Column(
                             children: [
+                            const Padding(padding: EdgeInsets.only(top: 20)),
                               Container(
-                                  width: 110,
+                                  width: 150,
                                   height: 80,
                                   // decoration: const BoxDecoration(borderRadius: BorderRadius.all(Radius.circular(50))),
                                   child: ClipPath(
@@ -52,14 +56,18 @@ class Singlepage extends StatelessWidget {
                           ),
                         ),
                       ),
+
+
                       Container(
                         child: Card(
                           color: Colors.amber,
                           child: Column(
+                            
                             children: [
+                              Padding(padding: EdgeInsets.only(bottom:20)),
                               Container(
-                                  width: 110,
-                                  height: 75,
+                                  width: 150,
+                                  height: 80,
                                   // decoration: const BoxDecoration(borderRadius: BorderRadius.all(Radius.circular(50))),
                                   child: ClipPath(
                                     child: SvgPicture.asset(
@@ -89,8 +97,9 @@ class Singlepage extends StatelessWidget {
                           color: Colors.amber,
                           child: Column(
                             children: [
+                        const  Padding(padding: EdgeInsets.only(bottom: 20)),
                               Container(
-                                  width: 110,
+                                  width: 150,
                                   height: 80,
                                   // decoration: const BoxDecoration(borderRadius: BorderRadius.all(Radius.circular(50))),
                                   child: ClipPath(
@@ -111,8 +120,9 @@ class Singlepage extends StatelessWidget {
                           color: Colors.amber,
                           child: Column(
                             children: [
+                            const Padding(padding: EdgeInsets.only(bottom: 20)),
                               Container(
-                                  width: 110,
+                                  width: 150,
                                   height: 80,
                                   // decoration: const BoxDecoration(borderRadius: BorderRadius.all(Radius.circular(50))),
                                   child: ClipPath(
@@ -143,8 +153,9 @@ class Singlepage extends StatelessWidget {
                           color: Colors.amber,
                           child: Column(
                             children: [
+                            Padding(padding: EdgeInsets.only(bottom: 20)),
                               Container(
-                                  width: 110,
+                                  width: 150,
                                   height: 80,
                                   // decoration: const BoxDecoration(borderRadius: BorderRadius.all(Radius.circular(50))),
                                   child: ClipPath(
@@ -164,8 +175,9 @@ class Singlepage extends StatelessWidget {
                           color: Colors.amber,
                           child: Column(
                             children: [
+                           const Padding(padding: EdgeInsets.only(bottom: 20)),
                               Container(
-                                  width: 110,
+                                  width: 150,
                                   height: 80,
                                   // decoration: const BoxDecoration(borderRadius: BorderRadius.all(Radius.circular(50))),
                                   child: ClipPath(
@@ -183,57 +195,7 @@ class Singlepage extends StatelessWidget {
                     ],
                   ),
                 ),
-                const SizedBox(
-                  height: 10,
-                ),
-                Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceAround,
-                    children: [
-                       Card(
-                          color: Colors.amber,
-                          child: Column(
-                            children: [
-                              Container(
-                                  width: 110,
-                                  height: 80,
-                                  // decoration: const BoxDecoration(borderRadius: BorderRadius.all(Radius.circular(50))),
-                                  child: ClipPath(
-                                    child: SvgPicture.asset(
-                                      'assets/notifications.svg',
-                                      width: 50,
-                                      color: Colors.amber,
-                                      colorBlendMode: BlendMode.multiply,
-                                    ),
-                                  )),
-                              const Text('Ipsum dolor')
-                            ],
-                          
-                        ),
-                      ),
-                      Card(
-                          color: Colors.amber,
-                          child: Column(
-                            children: [
-                              Container(
-                                  width: 110,
-                                  height: 80,
-                                  // decoration: const BoxDecoration(borderRadius: BorderRadius.all(Radius.circular(50))),
-                                  child: ClipPath(
-                                    child: SvgPicture.asset(
-                                      'assets/woman.svg',
-                                      width: 50,
-                                      color: Colors.amber,
-                                      colorBlendMode: BlendMode.multiply,
-                                    ),
-                                  )),
-                              const Text('Ipsum dolor')
-                            ],
-                          ),
-                        ),
-                      
-                    ],
-                  ),
-                
+            const SizedBox(height: 33,)
               ],
             ),
           ),
