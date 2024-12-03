@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 
 class Payment extends StatelessWidget {
@@ -18,7 +19,7 @@ class Payment extends StatelessWidget {
 
          Card(
           
-            color: Color.fromARGB(255, 95, 155, 97),
+            color:const Color.fromARGB(255, 37, 180, 166),
             child:Column(
               
               children: [
@@ -89,12 +90,16 @@ class Payment extends StatelessWidget {
            child:Column(
             children: [
               const SizedBox(height: 30,),
-             const Text('Dolor Sit Amet',
-              style: TextStyle(
-              decoration: TextDecoration.underline,
-              color: Colors.white,
-              fontSize: 23
-              ),),
+             
+            
+            const Text(
+                        'Dolor Sit Amet',
+                        style: TextStyle(
+                            decorationColor: Colors.white,
+                            decoration: TextDecoration.underline,
+                            color: Colors.white,
+                            fontSize: 23),
+                      ),
 
              const SizedBox(height: 10,),
 
@@ -107,28 +112,68 @@ class Payment extends StatelessWidget {
 
             const  Text('00000  00000 0000  00000',
               style: TextStyle(
+                decorationColor: Colors.white,
                 decoration: TextDecoration.underline,
                 color: Colors.white,
                 fontSize: 23
               ),),
              const SizedBox(height: 10,),
              
-            const Row(
+            Row(
               children: [
-               Row(
-                      children: [Text('Lorem', style: TextStyle(fontSize: 23,
-                      color: Colors.white)), Icon(Icons.arrow_drop_down, size: 48,
-                      color: Colors.white,)],
-                    ),
+              Column(
+                        children: [
+                          const Row(
+                            children: [
+                              Text(
+                                'Lorem',
+                                style: TextStyle(
+                                    fontSize: 23, color: Colors.white),
+                              ),
+                              Icon(
+                                Icons.arrow_drop_down,
+                                size: 48,
+                                color: Colors.white,
+                              ),
+                            ],
+                          ),
+                          Container(
+                            width: 105,
+                            decoration: const BoxDecoration(
+                                border: Border(
+                                    bottom: BorderSide(
+                                        width: 2, color: Colors.white))),
+                          )
+                        ],
+                      ),
 
-                    SizedBox(width: 100,),
-                    Row(
-                      children: [Text('Lorem',style: TextStyle(fontSize: 23,
-                      color: Colors.white),), Icon(Icons.arrow_drop_down,size: 48,color:Colors.white,)],
-                    )
+                   const SizedBox(width: 100,),
+                    Column(
+                      children: [
+                   
+                   const Row(
+                      children: [
+                      
+                        Text('Lorem',style: TextStyle(fontSize: 23,
+                      color: Colors.white),), 
+                      Icon(Icons.arrow_drop_down,size: 48,color:Colors.white,),
+                     
+                      ],
+                      
+                    ),
+                       Container(
+                            width: 105,
+                            decoration: const BoxDecoration(
+                                border: Border(
+                                    bottom: BorderSide(
+                                        width: 2, color: Colors.white))),
+                          )
               ],
              ),
-           const SizedBox(height: 50,),
+              
+             
+              ]),
+           const SizedBox(height: 45,),
              Container(
               width: 170,
               decoration:const BoxDecoration(
@@ -150,7 +195,7 @@ class Payment extends StatelessWidget {
             ],
            )),
           ),
-         const SizedBox(height: 9.2,),
+         const SizedBox(height: 9,),
           Card(
               child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
