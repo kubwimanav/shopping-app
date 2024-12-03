@@ -16,18 +16,19 @@ class Payment extends StatelessWidget {
           ),
           ),
 
-         const Card(
-
+         Card(
+          
             color: Color.fromARGB(255, 95, 155, 97),
-            child: Column(
+            child:Column(
+              
               children: [
-                SizedBox(height: 29,),
-                Text('Card'),
+                const SizedBox(height: 29,),
+                const Text('Card'),
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
               
-                Row(
+                const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
                     Text('00000'),
@@ -36,20 +37,26 @@ class Payment extends StatelessWidget {
                     Text('00000')
                   ],
                 ),
-             Text('Lorem IPsum')
+                Container(
+                  padding:const EdgeInsets.only(left:25),
+                  child:
+                   const  Text('Lorem IPsum',)
+                )
                       
                   ],
                 ),
 
-                SizedBox(height: 20,),
-           Column(
+               const SizedBox(height: 20,),
+              Container(
+                padding:const EdgeInsets.only(left:25),
+                child: 
+            const Column(
            children: [
-            
            Row(
             children: [
               Text('Lorem Name'),
                  SizedBox(
-                          width: 200,
+                          width: 215,
                         ),
               Text('05/10')
             ],
@@ -61,14 +68,14 @@ class Payment extends StatelessWidget {
             Row(
                       children: [Text('Lorem Name'),
                         SizedBox(
-                          width: 200,
+                          width: 215,
                         ),
                Text('05/10')],
                     ),
 
            ],
-                ),
-                SizedBox(height: 29,)
+                )),
+             const SizedBox(height: 29,)
 
               ],
             ),
@@ -76,25 +83,32 @@ class Payment extends StatelessWidget {
 
         const  SizedBox(height: 40,),
           Card(
-            color: Colors.black45,
+            color:const Color.fromARGB(255, 53, 53, 53),
+            child:Container(
+              padding: const EdgeInsets.all(20),
            child:Column(
             children: [
               const SizedBox(height: 30,),
              const Text('Dolor Sit Amet',
               style: TextStyle(
               decoration: TextDecoration.underline,
+              color: Colors.white,
               fontSize: 23
               ),),
 
              const SizedBox(height: 10,),
 
-             const Text('Ipsum Dolor',style: TextStyle(fontSize: 23),),
+             const Text('Ipsum Dolor',
+             style: TextStyle(
+              fontSize: 23,
+              color: Colors.white),),
 
              const SizedBox(height: 15,),
 
             const  Text('00000  00000 0000  00000',
               style: TextStyle(
                 decoration: TextDecoration.underline,
+                color: Colors.white,
                 fontSize: 23
               ),),
              const SizedBox(height: 10,),
@@ -102,16 +116,19 @@ class Payment extends StatelessWidget {
             const Row(
               children: [
                Row(
-                      children: [Text('Lorem', style: TextStyle(fontSize: 23)), Icon(Icons.arrow_drop_down, size: 48)],
+                      children: [Text('Lorem', style: TextStyle(fontSize: 23,
+                      color: Colors.white)), Icon(Icons.arrow_drop_down, size: 48,
+                      color: Colors.white,)],
                     ),
 
-                    SizedBox(width: 140,),
+                    SizedBox(width: 100,),
                     Row(
-                      children: [Text('Lorem',style: TextStyle(fontSize: 23),), Icon(Icons.arrow_drop_down,size: 48,)],
+                      children: [Text('Lorem',style: TextStyle(fontSize: 23,
+                      color: Colors.white),), Icon(Icons.arrow_drop_down,size: 48,color:Colors.white,)],
                     )
               ],
              ),
-           const SizedBox(height: 70,),
+           const SizedBox(height: 50,),
              Container(
               width: 170,
               decoration:const BoxDecoration(
@@ -121,16 +138,17 @@ class Payment extends StatelessWidget {
             child: TextButton(onPressed: (){}, 
             child:const Text('Lorem',
              style: TextStyle(
+              color: Colors.black,
               fontSize: 20,
               letterSpacing: 4
              ),
             )
             ),
              ),
-             const SizedBox(height: 30,) 
+             const SizedBox(height: 10,) 
               
             ],
-           ),
+           )),
           ),
          const SizedBox(height: 9.2,),
           Card(
