@@ -29,12 +29,10 @@ class Singlepage extends StatelessWidget {
             child: Column(
               children: [
                 const Padding(padding: EdgeInsets.only(top: 33)),
-                Container(
-                  child: Row(
+                 Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
-                 Container(
-                        child: Card(
+                 Card(
                           color: Colors.amber,
                           child: Column(
                             children: [
@@ -55,16 +53,15 @@ class Singlepage extends StatelessWidget {
                             ],
                           ),
                         ),
-                      ),
+                      
 
 
-                      Container(
-                        child: Card(
+                      Card(
                           color: Colors.amber,
                           child: Column(
                             
                             children: [
-                              Padding(padding: EdgeInsets.only(bottom:20)),
+                             const Padding(padding: EdgeInsets.only(bottom:20)),
                               Container(
                                   width: 150,
                                   height: 80,
@@ -81,19 +78,17 @@ class Singlepage extends StatelessWidget {
                             ],
                           ),
                         ),
-                      ),
+                      
                     ],
                   ),
-                ),
+                
                 const SizedBox(
                   height: 10,
                 ),
-                Container(
-                  child: Row(
+               Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
-                      Container(
-                        child: Card(
+                       Card(
                           color: Colors.amber,
                           child: Column(
                             children: [
@@ -114,9 +109,8 @@ class Singlepage extends StatelessWidget {
                             ],
                           ),
                         ),
-                      ),
-                      Container(
-                        child: Card(
+                      
+                    Card(
                           color: Colors.amber,
                           child: Column(
                             children: [
@@ -137,23 +131,21 @@ class Singlepage extends StatelessWidget {
                             ],
                           ),
                         ),
-                      ),
+                      
                     ],
                   ),
-                ),
+              
                 const SizedBox(
                   height: 10,
                 ),
-                Container(
-                  child: Row(
+                Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
-                      Container(
-                        child: Card(
+                      Card(
                           color: Colors.amber,
                           child: Column(
                             children: [
-                            Padding(padding: EdgeInsets.only(bottom: 20)),
+                           const Padding(padding: EdgeInsets.only(bottom: 20)),
                               Container(
                                   width: 150,
                                   height: 80,
@@ -169,7 +161,6 @@ class Singlepage extends StatelessWidget {
                               const Text('Ipsum dolor')
                             ],
                           ),
-                        ),
                       ),
                       Card(
                           color: Colors.amber,
@@ -181,6 +172,7 @@ class Singlepage extends StatelessWidget {
                                   height: 80,
                                   // decoration: const BoxDecoration(borderRadius: BorderRadius.all(Radius.circular(50))),
                                   child: ClipPath(
+                                    
                                     child: SvgPicture.asset(
                                       'assets/marilyn.svg',
                                       width: 50,
@@ -194,7 +186,6 @@ class Singlepage extends StatelessWidget {
                         ),
                     ],
                   ),
-                ),
             const SizedBox(height: 33,)
               ],
             ),

@@ -14,8 +14,7 @@ class Profile extends StatelessWidget {
           Container(
             child: Column(
               children: [
-                Container(
-                    child: ClipRRect(
+                ClipRRect(
                   borderRadius: const BorderRadius.all(Radius.circular(75)),
                   child: Image.asset(
                     'assets/profile.jpg',
@@ -23,7 +22,7 @@ class Profile extends StatelessWidget {
                     height: 150,
                     fit: BoxFit.cover,
                   ),
-                )),
+                ),
                 const Text(
                   'Lorem Name',
                   style: TextStyle(
@@ -40,12 +39,12 @@ class Profile extends StatelessWidget {
           ),
           Container(
             height: 452,
-            child: Card(
+            child: const Card(
               
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                   const Row(
+                  Row(
                     children: [
                       Icon(
                         Icons.abc,
@@ -54,8 +53,7 @@ class Profile extends StatelessWidget {
                       Text('Lorem ipsum')
                     ],
                   ),
-                  Container(
-                      child: const Row(
+                  Row(
                     children: [
                       Icon(
                         Icons.abc,
@@ -63,8 +61,8 @@ class Profile extends StatelessWidget {
                       ),
                       Text('Dolar sit')
                     ],
-                  )),
-                   const Row(
+                  ),
+                   Row(
                     children: [
                       Icon(
                         Icons.abc,
@@ -73,7 +71,7 @@ class Profile extends StatelessWidget {
                       Text('Amot Lorem')
                     ],
                   ),
-                   const Row(
+                   Row(
                     children: [
                       Icon(
                         Icons.abc,
@@ -82,7 +80,7 @@ class Profile extends StatelessWidget {
                       Text('Ipsum dolor')
                     ],
                   ),
-                  const Row(
+                  Row(
                     children: [
                       Icon(
                         Icons.abc,

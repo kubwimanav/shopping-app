@@ -20,7 +20,7 @@ class Promocode extends StatelessWidget {
                 ),
               )),
           Card(
-              color: Color.fromARGB(255, 243, 243, 243),
+              color:const Color.fromARGB(255, 243, 243, 243),
               child: Column(
                 children: [
                   const Text(

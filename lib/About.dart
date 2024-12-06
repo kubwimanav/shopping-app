@@ -17,8 +17,7 @@ class About extends StatelessWidget {
                 fontWeight: FontWeight.bold,
                 fontFamily: AutofillHints.countryName),
           ),
-          Container(
-            child: Column(
+          Column(
               children: [
                 const Padding(padding: EdgeInsets.only(left: 800)),
                 Container(
@@ -93,7 +92,7 @@ class About extends StatelessWidget {
                                   BorderRadius.all(Radius.circular(8)))),
                     )),
               ],
-            ),
+            
           ),
           Container(
             decoration: const BoxDecoration(
