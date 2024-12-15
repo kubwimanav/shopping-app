@@ -40,12 +40,12 @@ class Order extends StatelessWidget {
             color: Color.fromARGB(255, 53, 53, 53),
             child: Column(
               children: [
-                 Padding(padding: EdgeInsets.all(15)),
+                 Padding(padding: EdgeInsets.all(43)),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Text(
-                      'hello',
+                      'Dolar sit amet',
                       style: TextStyle(
                           fontSize: 18,
                           color: Colors.white,
@@ -76,50 +76,15 @@ class Order extends StatelessWidget {
                   ],
                 ),
                 SizedBox(
-                  height: 7,
-                ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    Text(
-                      'hello',
-                      style: TextStyle(
-                          fontSize: 18,
-                          color: Colors.white,
-                          fontWeight: FontWeight.w500),
-                    ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Icon(
-                          Icons.remove,
-                          color: Colors.white,
-                        ),
-                        Icon(
-                          Icons.check_box_outline_blank_outlined,
-                          color: Colors.white,
-                        ),
-                        Icon(
-                          Icons.add,
-                          color: Colors.white,
-                        ),
-                      ],
-                    ),
-                    Text(
-                      '100',
-                      style: TextStyle(
-                          color: Colors.white, fontWeight: FontWeight.w500),
-                    )
-                  ],
-                ),
-                SizedBox(
-                  height: 7,
-                ),
+                  height: 35,
+         ), 
+              
+               
                  Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Text(
-                      'hello',
+                      'Dolar sit amet',
                       style: TextStyle(
                           fontSize: 18,
                           color: Colors.white,
@@ -149,273 +114,12 @@ class Order extends StatelessWidget {
                     )
                   ],
                 ),
-                 SizedBox(
-                  height: 7,
-                ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    Text(
-                      'hello',
-                      style: TextStyle(
-                          fontSize: 18,
-                          color: Colors.white,
-                          fontWeight: FontWeight.w500),
-                    ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Icon(
-                          Icons.remove,
-                          color: Colors.white,
-                        ),
-                        Icon(
-                          Icons.check_box_outline_blank_outlined,
-                          color: Colors.white,
-                        ),
-                        Icon(
-                          Icons.add,
-                          color: Colors.white,
-                        ),
-                      ],
-                    ),
-                    Text(
-                      '100',
-                      style: TextStyle(
-                          color: Colors.white, fontWeight: FontWeight.w500),
-                    )
-                  ],
-                ),
-                SizedBox(
-                  height: 7,
-                ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    Text(
-                      'hello',
-                      style: TextStyle(
-                          fontSize: 18,
-                          color: Colors.white,
-                          fontWeight: FontWeight.w500),
-                    ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Icon(
-                          Icons.remove,
-                          color: Colors.white,
-                        ),
-                        Icon(
-                          Icons.check_box_outline_blank_outlined,
-                          color: Colors.white,
-                        ),
-                        Icon(
-                          Icons.add,
-                          color: Colors.white,
-                        ),
-                      ],
-                    ),
-                    Text(
-                      '100',
-                      style: TextStyle(
-                          color: Colors.white, fontWeight: FontWeight.w500),
-                    )
-                  ],
-                ),
-              SizedBox(
-                  height: 7,
-                ),
-               Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    Text(
-                      'hello',
-                      style: TextStyle(
-                          fontSize: 18,
-                          color: Colors.white,
-                          fontWeight: FontWeight.w500),
-                    ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Icon(
-                          Icons.remove,
-                          color: Colors.white,
-                        ),
-                        Icon(
-                          Icons.check_box_outline_blank_outlined,
-                          color: Colors.white,
-                        ),
-                        Icon(
-                          Icons.add,
-                          color: Colors.white,
-                        ),
-                      ],
-                    ),
-                    Text(
-                      '100',
-                      style: TextStyle(
-                          color: Colors.white, fontWeight: FontWeight.w500),
-                    )
-                  ],
-                ),
-                 SizedBox(
-                  height: 7,
-                ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    Text(
-                      'hello',
-                      style: TextStyle(
-                          fontSize: 18,
-                          color: Colors.white,
-                          fontWeight: FontWeight.w500),
-                    ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Icon(
-                          Icons.remove,
-                          color: Colors.white,
-                        ),
-                        Icon(
-                          Icons.check_box_outline_blank_outlined,
-                          color: Colors.white,
-                        ),
-                        Icon(
-                          Icons.add,
-                          color: Colors.white,
-                        ),
-                      ],
-                    ),
-                    Text(
-                      '100',
-                      style: TextStyle(
-                          color: Colors.white, fontWeight: FontWeight.w500),
-                    )
-                  ],
-                ),
-              SizedBox(
-                  height: 7,
-                ),
-                 Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    Text(
-                      'hello',
-                      style: TextStyle(
-                          fontSize: 18,
-                          color: Colors.white,
-                          fontWeight: FontWeight.w500),
-                    ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Icon(
-                          Icons.remove,
-                          color: Colors.white,
-                        ),
-                        Icon(
-                          Icons.check_box_outline_blank_outlined,
-                          color: Colors.white,
-                        ),
-                        Icon(
-                          Icons.add,
-                          color: Colors.white,
-                        ),
-                      ],
-                    ),
-                    Text(
-                      '100',
-                      style: TextStyle(
-                          color: Colors.white, fontWeight: FontWeight.w500),
-                    )
-                  ],
-                ),
-                 SizedBox(
-                  height: 7,
-                ),
-                 Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    Text(
-                      'hello',
-                      style: TextStyle(
-                          fontSize: 18,
-                          color: Colors.white,
-                          fontWeight: FontWeight.w500),
-                    ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Icon(
-                          Icons.remove,
-                          color: Colors.white,
-                        ),
-                        Icon(
-                          Icons.check_box_outline_blank_outlined,
-                          color: Colors.white,
-                        ),
-                        Icon(
-                          Icons.add,
-                          color: Colors.white,
-                        ),
-                      ],
-                    ),
-                    Text(
-                      '100',
-                      style: TextStyle(
-                          color: Colors.white, fontWeight: FontWeight.w500),
-                    )
-                  ],
-                ),
-                SizedBox(
-                  height: 7,
-                ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    Text(
-                      'hello',
-                      style: TextStyle(
-                          fontSize: 18,
-                          color: Colors.white,
-                          fontWeight: FontWeight.w500),
-                    ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Icon(
-                          Icons.remove,
-                          color: Colors.white,
-                        ),
-                        Icon(
-                          Icons.check_box_outline_blank_outlined,
-                          color: Colors.white,
-                        ),
-                        Icon(
-                          Icons.add,
-                          color: Colors.white,
-                        ),
-                      ],
-                    ),
-                    Text(
-                      '100',
-                      style: TextStyle(
-                          color: Colors.white, fontWeight: FontWeight.w500),
-                    )
-                  ],
-                ),
-              SizedBox(
-                  height: 7,
-                ),
+               SizedBox(height: 35,),
               Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Text(
-                      'hello',
+                      'Dolar sit amet',
                       style: TextStyle(
                           fontSize: 18,
                           color: Colors.white,
@@ -446,13 +150,13 @@ class Order extends StatelessWidget {
                   ],
                 ),
                 SizedBox(
-                  height: 7,
+                  height: 35,
                 ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Text(
-                      'hello',
+                      'Dolar sit amet',
                       style: TextStyle(
                           fontSize: 18,
                           color: Colors.white,
@@ -483,13 +187,13 @@ class Order extends StatelessWidget {
                   ],
                 ),
               SizedBox(
-                  height: 7,
+                  height: 35,
                 ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Text(
-                      'hello',
+                      'Dolar sit amet',
                       style: TextStyle(
                           fontSize: 18,
                           color: Colors.white,
@@ -520,13 +224,13 @@ class Order extends StatelessWidget {
                   ],
                 ),
                  SizedBox(
-                  height: 7,
+                  height: 35,
                 ),
                  Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Text(
-                      'hello',
+                      'Dolar sit amet',
                       style: TextStyle(
                           fontSize: 18,
                           color: Colors.white,
@@ -556,11 +260,17 @@ class Order extends StatelessWidget {
                     )
                   ],
                 ),
+              SizedBox(
+                  height: 70,
+                ),
                
               ],
+              
             ),
+            
           ),
 
+        
 
 
           Card(
